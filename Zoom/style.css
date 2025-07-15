@@ -6,17 +6,14 @@
 .background{
     height: 100vh;
     width: 100vw;
-<<<<<<< HEAD
     background-image: url("https://rukminim2.flixcart.com/image/850/1000/jv5k2a80/poster/j/b/z/medium-vnnatr000772c-natural-flower-garden-with-butterfly-original-imaffwsyjgqrddnm.jpeg?q=90&crop=false");
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(5px);
-=======
     background-image:url("https://rukminim2.flixcart.com/image/850/1000/jv5k2a80/poster/j/b/z/medium-vnnatr000772c-natural-flower-garden-with-butterfly-original-imaffwsyjgqrddnm.jpeg?q=90&crop=false");
     background-repeat:no-repeat;
     background-size:cover;
 /*     background-color: purple; */
->>>>>>> 6ef7b5c7504daa7288cda7d964710c76cc9f3155
     display: flex;
     justify-content: center;
     align-items: center;
