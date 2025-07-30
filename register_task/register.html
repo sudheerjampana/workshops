@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            background-image:url(https://www.pixelstalk.net/wp-content/uploads/images1/Best-Textured-Photos.jpg);
+            backdrop-filter: blur(5px);
+        }
+        .main-container{
+            background-color: rgb(248, 247, 245);
+            border-radius: 10px;
+            align-self: center;
+            /* border: 2px solid red; */
+            width: 500px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            padding: 30px;
+            /* margin: 200px; */
+        }
+        input{
+            padding: 20px;
+            width: 300px;
+            height: 5vh;
+            border-radius: 10px;
+        }
+        button{
+            height: 50px;
+            width: 90px;
+            border-radius: 30px;
+            border-style: none;
+            background-color:rgb(237, 223, 100);
+        }
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Register Form</h1>
+        <input type="text" value="" id="username" required placeholder="enter username" autocomplete="off">
+        <input type="text" value="" id="mobile" required placeholder="enter mobile number" autocomplete="off">
+        <input type="text" value="" id="password" required placeholder="password" autocomplete="off">
+        <input type="text" value="" id="confirm" required placeholder="confirm password" autocomplete="off">
+        <a href="file:///D:/10kCoders/Java_Script/register_task/login.html">Login</a>
+        <button onclick=handleRegister()>Register</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
